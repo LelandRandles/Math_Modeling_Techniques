@@ -1,0 +1,23 @@
+geographic_region,lob,card_brand,transactions,volume,per_item_rate,percentage_rate
+Canada,Direct,Amex,486111,41678645.82,0.016,0.7337
+Canada,Integrated,Amex,1274,277243.23,0.0197,2.2013
+Europe,Direct,Amex,183540,6506990.33,0.018,1.0448
+United States,Direct,Amex,53182,15792952.07,0.1686,3.2431
+United States,Integrated,Amex,759525,142948579.7,0.2046,2.4526
+Asia-Pacific,Direct,Discover,2,684.79,0,1.8525
+Canada,Direct,Discover,2832,199815.52,0.0068,1.7975
+Canada,Integrated,Discover,4,394.6,0.0444,2.1118
+United States,Direct,Discover,83583,13577027.01,0.1913,2.3279
+United States,Integrated,Discover,416729,56933953.54,0.2154,2.3442
+Asia-Pacific,Direct,MasterCard,5702609,461604296.5,0.0163,1.8769
+Canada,Direct,MasterCard,24404389,1279210277,0.0079,1.341
+Canada,Integrated,MasterCard,71073,8578996.71,0.0213,2.3314
+Europe,Direct,MasterCard,10042084,552168857.2,0.0095,0.8546
+United States,Direct,MasterCard,2366921,432195147.9,0.1797,1.3094
+United States,Integrated,MasterCard,4253507,535483037.3,0.2441,2.1005
+Asia-Pacific,Direct,Visa,9404022,680176580.8,0.0377,1.9483
+Canada,Direct,Visa,26640973,1605996444,0.0063,1.4965
+Canada,Integrated,Visa,110687,14132625.44,0.0212,2.0837
+Europe,Direct,Visa,53649353,3171614335,0.0362,0.3008
+United States,Direct,Visa,6210103,1085689451,0.3212,0.8987
+United States,Integrated,Visa,10996153,1282370982,0.2464,1.8827
