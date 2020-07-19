@@ -1,0 +1,20 @@
+geographic_country,from_currency,to_currency,conversion_rate
+United States,USD,USD,1.0
+Canada (USD),USD,USD,1.0
+Canada (CAD),CAD,USD,0.71089
+United Kingdom,GBP,USD,1.24199
+Romania,CZK,USD,0.040324
+Czech Republic,CZK,USD,0.040324
+Slovakia,CZK,USD,0.040324
+Austria,CZK,USD,0.040324
+Hungary,CZK,USD,0.040324
+Malta,CZK,USD,0.040324
+Macau,MOP,USD,0.12521
+Malaysia,MYR,USD,0.23172
+Brunei,BND,USD,0.70333
+Maldives,MVR,USD,0.06495
+Sri Lanka,LKR,USD,0.0053079
+Singapore,SGD,USD,0.70325
+India,INR,USD,0.013274
+Philippines,PHP,USD,0.019654
+Hong Kong,HKD,USD,0.129015
