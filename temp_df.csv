@@ -1,0 +1,20 @@
+geographic_country,geographic_region,lob,merchant_hash,card_brand,perc_rate,per_item_rate_usd,trans,vol_usd,rev_usd,from_currency,conversion_rate,per_item_rate_lcl,vol_lcl,rev_lcl,perc_rate_ceiling,per_item_rate_ceiling,rev_at_ceiling_usd,vol_2020
+United States,United States,Integrated,bae4b3f02a9cfa1a32e74a277928521c,Visa,2.8585,0.2901,588,16215.95,634.11,USD,1,0.2901,16215.95,634.11,3.1444,0.3191,697.53,16540.27
+United States,United States,Integrated,bae4b3f02a9cfa1a32e74a277928521c,MasterCard,2.9243,0.2914,106,2989.77,118.32,USD,1,0.2914,2989.77,118.32,3.2167,0.3205,130.14,3049.57
+United States,United States,Integrated,bae4b3f02a9cfa1a32e74a277928521c,Discover,3.8044,0.2714,18,775.8,34.4,USD,1,0.2714,775.8,34.4,3.8044,0.3203,35.28,791.32
+United States,United States,Integrated,bae4b3f02a9cfa1a32e74a277928521c,Amex,2.055,0.27,194,5599.22,167.44,USD,1,0.27,5599.22,167.44,2.2605,0.297,184.19,5711.2
+,,,,,,,906,25580.74,,,,,,,,,,
+,,,x1 = current perc_rate,,,,,,,,,,,,,,,
+,,,x2 = current per_item_rate_usd,,,,0.188276821,1.812038787,,,,,,,,,,
+,,,y1 = new perc_rate,,,,0.034093157,0.341779965,,,,,,,,,,
+,,,y2 = new per_item_rate_usd,,,,0.005392053,0.115377957,,,,,,,,,,
+,,,v = 2020 volume,,,,0.05781457,0.449807046,,,,,,,,,,
+,,,t = 2020 transactions,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,Maximize (v * (y1 / 100) + (t * y2) - 634.11,(Maximizing increase in revenue),,,,,,,,,,,,,,
+,,,165.4027 * y1 + 588 * y2 - 634.11,,,,,,,,,,,,,,,
+,,,y1 <= x1 * 1.1,,,,,,,,,,,,,,,
+,,,y1 <= x1 * 1.18,,,,,,,,,,,,,,,
+,,,y1 <= x1 + 1,,,,,,,,,,,,,,,
+,,,y2 <= x2 * 1.1,,,,,,,,,,,,,,,
+,,,y2 <= x2 * 1.18,,,,,,,,,,,,,,,
